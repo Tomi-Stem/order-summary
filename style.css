@@ -102,9 +102,12 @@ font-weight: bolder;}
 
         /*MOBILE DESIGN FOR MAX-WIDTH: 375PX*/
         @media screen and (max-width: 375px) {
+          
+            body{background-color: hsl(225, 100%, 94%);}
+          
             .first_div {
-                width: 375px;
+                width: 360px;
                 margin: auto;
-                margin-left: 13px;
+                margin-top: 30px;
             }
         }
