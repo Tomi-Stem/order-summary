@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Summary</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./../../../fontawesome-free-6.2.0-web/fontawesome-free-6.2.0-web/css/all.css">
+    <script src="./../../../bootstrap-5/bootstrap-5.2.1-dist/js/bootstrap.bundle.js"></script>
+</head>
+<body>
+    
+    <div class="first_div">
+
+<div class="header_image_div"></div>
+
+<div class="description_div">
+ <div class="heading_div">
+    <h2>Order Summary</h2>
+ </div>
+
+ <div class="para_div">
+    <p>You can now listen to millions of songs, audiobooks and 
+        podcasts on any device anywhere you like!</p>
+ </div>
+
+ <div class="flex_div">
+    <div class="music_image_div">
+        <img src="images/icon-music.svg" alt=""></div>
+
+    <div class="sub_div">
+      
+     <div class="div_1">Annual Plan</div>
+
+     <div class="div_2">$59.99/year</div>
+
+    </div>
+
+
+    <div class="link_div">
+        <a href="http://" class="change_link">Change</a>
+    </div>
+ </div>
+
+
+<div class="payment_btn_div">
+    <button class="payment_btn">Proceed to Payment</button>
+</div>
+
+<div class="cancel_order_div" onclick="redColor()" id="cancel">
+    Cancel Order 
+</div>
+
+</div>
+
+</div>
+
+    
+
+</body>
+
+<script>
+    function redColor() {
+        document.getElementById('cancel').style = 'color: grey';
+    }
+</script>
+</html>
