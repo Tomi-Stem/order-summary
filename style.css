@@ -106,9 +106,11 @@ font-weight: bolder;}
             body{background-color: hsl(225, 100%, 94%);}
           
             .first_div {
-                width: 360px;
+                width: 350px;
                 margin: auto;
                 margin-top: 30px;
-                margin-right: 10px;
             }
+
+                        .para_div {
+                            font-size: 15px;}
         }
